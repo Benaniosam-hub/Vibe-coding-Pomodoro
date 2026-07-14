@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "Courier Prime", "JetBrains Mono", monospace;
+
+  --color-paper-light: #FBF9F6;
+  --color-paper: #F4F1EA;
+  --color-paper-dark: #E6E1D3;
+  --color-charcoal: #1A1A1A;
+  --color-charcoal-muted: #666666;
+  --color-charcoal-light: #D5CFC1;
+}
+
+/* Base style resets to mimic electronic paper */
+body {
+  background-color: var(--color-paper);
+  color: var(--color-charcoal);
+  font-family: var(--font-mono);
+  image-rendering: pixelated;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom crisp flat-border retro styles */
+.eink-border {
+  border: 2.5px solid var(--color-charcoal);
+}
+
+.eink-border-thin {
+  border: 1.5px solid var(--color-charcoal);
+}
+
+.eink-shadow {
+  box-shadow: 4px 4px 0px 0px var(--color-charcoal);
+}
+
+.eink-shadow-sm {
+  box-shadow: 2px 2px 0px 0px var(--color-charcoal);
+}
+
+.eink-shadow-lg {
+  box-shadow: 8px 8px 0px 0px var(--color-charcoal);
+}
+
+/* Button click effect */
+.eink-btn-active:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0px 0px 0px 0px var(--color-charcoal);
+}
+
+/* Scrollbar styling for E-ink screen */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-paper);
+  border-left: 2px solid var(--color-charcoal);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-charcoal);
+  border: 2px solid var(--color-paper);
+}
+
+/* Shading pattern for graphs and accents */
+.eink-dots {
+  background-image: radial-gradient(var(--color-charcoal-muted) 1px, transparent 1px);
+  background-size: 8px 8px;
+}
+
+.eink-stripe {
+  background: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 4px,
+    var(--color-charcoal-light) 4px,
+    var(--color-charcoal-light) 8px
+  );
+}
+
+/* Subtle page refresh flash for realistic e-ink feel */
+@keyframes eink-flash {
+  0% { filter: invert(0); }
+  30% { filter: invert(1); }
+  70% { filter: invert(1); }
+  100% { filter: invert(0); }
+}
+
+.eink-flash-effect {
+  animation: eink-flash 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+}

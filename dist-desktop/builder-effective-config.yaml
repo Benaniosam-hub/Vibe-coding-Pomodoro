@@ -1,0 +1,26 @@
+directories:
+  output: dist-desktop
+  buildResources: build
+appId: com.strictaccountability.youcantescape
+productName: You Can't Escape From Me
+mac:
+  category: public.app-category.productivity
+  target:
+    - dmg
+  icon: assets/icon.icns
+dmg:
+  background: null
+  iconSize: 100
+  contents:
+    - x: 130
+      'y': 220
+    - x: 410
+      'y': 220
+      type: link
+      path: /Applications
+files:
+  - filter:
+      - dist/**/*
+      - electron-main.cjs
+      - package.json
+electronVersion: 31.7.7

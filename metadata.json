@@ -1,0 +1,6 @@
+{
+  "name": "You Can't Escape From Me",
+  "description": "A strict accountability E-Ink styled Pomodoro timer with automatic work logging and Excel/Word sheet exports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
