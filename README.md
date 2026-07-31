@@ -26,78 +26,39 @@ Every focus session is monitored, every tab switch is penalized, and every minut
 ### 1. The High-Density E-Ink Control Chassis
 *A retro electronic paper frame featuring low-distraction pixel-perfect typography, physical action toggles, and live countdown timers.*
 
-```
-+-----------------------------------------------------------------------------------+
-|  ● YOU CAN'T ESCAPE FROM ME • E-INK SYSTEM 1.0                SYS-TIME: 14:22:05  |
-+-----------------------------------------------------------------------------------+
-|  [ AUDITOR COMMENT ]                                                             |
-|  👴 Arthur (Father): "In my days, we had no 'Pomodoro'. Focus, son."              |
-|                                                                                   |
-|                   +---------------------------------------+                       |
-|                   |               2 4 : 5 9               |                       |
-|                   +---------------------------------------+                       |
-|                                [ ● ● ◯ ◯ ]                                        |
-|                         [ ▶ START ]   [ ⏹ ABANDON ]                               |
-+-----------------------------------------------------------------------------------+
-```
 
-*(Place screenshot `docs/screenshots/01-countdown-core.png` here)*
+<img width="1042" height="784" alt="Screenshot 2026-07-31 at 8 20 36 AM" src="https://github.com/user-attachments/assets/3048a177-d5c0-47bf-a88a-8f7d10a385af" />
+
 
 <br/>
 
 ### 2. Strict Auditor Setup & Registration
 *Select your active auditor (Father Arthur or Uncle Dave), specify your task objectives, and lock in your enforcement strictness.*
 
-```
-+-----------------------------------------------------------------------------------+
-| AUDIT PREPARATION & REGISTRATION (Form #401-A)                                   |
-|-----------------------------------------------------------------------------------|
-| 1. SUBJECT NAME : [ Son                         ]                                 |
-| 2. AUDITOR      : [x] Father Arthur (Ruthless)   [ ] Uncle Dave (Unhinged)       |
-| 3. WORK TASK    : [ Refactoring high-performance server API modules           ] |
-| 4. STRICTNESS   : [ 🔥 Ruthless Mode (1 Pause Allowed, Tab Detection Active)    ] |
-+-----------------------------------------------------------------------------------+
-```
+<img width="1002" height="761" alt="Screenshot 2026-07-31 at 8 19 47 AM" src="https://github.com/user-attachments/assets/ab18ff2b-f58b-49fd-a1ae-a33c5b042d3a" />
 
-*(Place screenshot `docs/screenshots/02-supervisor-setup.png` here)*
+<img width="1002" height="761" alt="Screenshot 2026-07-31 at 8 20 05 AM" src="https://github.com/user-attachments/assets/d255283b-e38f-4334-beb1-01ba3230f046" />
+
 
 <br/>
 
-### 3. Real-Time Spot Verification Checks
-*Surprise inspection modals interrupt the workflow at random intervals, requiring the user to type verification responses before time runs out.*
+### 3. Real-Time Warning and Tab Switch Detection
+*Samples of Warning Detection*
 
-```
-+-----------------------------------------------------------------------------------+
-| ⚠️ ACTIVE SPOT AUDIT CHECK!                        TIME LEFT: 28s                 |
-|-----------------------------------------------------------------------------------|
-| "ATTENTION CHECK: Type 'I PROMISE I AM NOT LOOKING AT REDDIT' to continue."       |
-| Input: [ I PROMISE I AM NOT LOOKING AT REDDIT                                   ] |
-|                               [ SUBMIT VERIFICATION ]                             |
-+-----------------------------------------------------------------------------------+
-```
+<img width="1136" height="880" alt="Screenshot 2026-07-31 at 8 49 33 AM" src="https://github.com/user-attachments/assets/8e8ed2c9-9893-49c3-bf14-f84d54b25448" />
 
-*(Place screenshot `docs/screenshots/03-spot-check.png` here)*
+<img width="1042" height="784" alt="Screenshot 2026-07-31 at 8 31 25 AM" src="https://github.com/user-attachments/assets/40e88836-484e-432b-b799-af71657f1847" />
+
 
 <br/>
 
 ### 4. Automated Excel & Word Audit Export Center
 *Generate multi-sheet `.xlsx` workbooks containing complete audit summaries and detailed timestamped work ledgers.*
 
-```
-+-----------------------------------------------------------------------------------+
-| AUDIT DATA EXPORT CENTER                                                          |
-|-----------------------------------------------------------------------------------|
-| [ 📊 Export Daily Excel (.xlsx) ]  [ 📊 Export Monthly Excel (.xlsx) ]             |
-| [ 📝 Export Word Audit (.doc)   ]  [ ➕ Seed Mock Session Log         ]             |
-|                                                                                   |
-|  Log ID    Date        Task                     Min    Status      Strikes        |
-|  -------------------------------------------------------------------------------  |
-|  8F2A10    2026-07-13  API Refactoring          25m    COMPLETED   0              |
-|  3B9C41    2026-07-12  Spanner DB Optimization  45m    LOAFED      3              |
-+-----------------------------------------------------------------------------------+
-```
+<img width="1042" height="784" alt="Screenshot 2026-07-31 at 8 21 10 AM" src="https://github.com/user-attachments/assets/ead796a6-dc2e-48cc-ac3a-35c5c6c001f0" />
 
-*(Place screenshot `docs/screenshots/04-audit-export.png` here)*
+<img width="1042" height="784" alt="Screenshot 2026-07-31 at 8 20 59 AM" src="https://github.com/user-attachments/assets/3bef1b5f-4a2c-4b5f-8073-43ae823885e4" />
+
 
 </div>
 
